@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>AMANI SHOP</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="" class="logo">
+                <img src="./IMG/logo2.png" alt="logo" />
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./company.html">Company</a></li>
+                    <li><a href="./contactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="containers">
+        <form class="product-form">
+            <h1>Product Form</h1>
+            <div class="form-group">
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" name="product-name" required>
+            </div>
+            <div class="form-group">
+                <label for="product-description">Description:</label>
+                <textarea id="product-description" name="product-description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="product-price">Price:</label>
+                <input type="number" id="product-price" name="product-price" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="product-image">Product Image:</label>
+                <input type="file" id="product-image" name="product-image" accept="image/*" required>
+            </div>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Product List</h1>
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Path Towards Home</td>
+                    <td>A close-up view of a man walking his dog in a park at night.</td>
+                    <td>$150.00</td>
+                    <td><img src="./img/leonid-afremov-our-best-friend-oil-painting-on-canvas.jpg"  alt="Product 1 Image" class="product-image"></td>
+                </tr>
+                <tr>
+                    <td>The Starry Night</td>
+                    <td>A vibrant and expressive painting of the night sky, with swirling clouds and bright stars.</td>
+                    <td>$200.00</td>
+                    <td><img src="./img/StarryNight_product.jpg" alt="Product 2 Image" class="product-image"></td>
+                </tr>
+                
+            </tbody>
+        </table>
+</body>
+</html>

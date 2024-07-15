@@ -54,7 +54,7 @@ ul {
 
 .header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 168, 82);
     font-size: 14px;
     padding: 10px;
     transition: 0.3s;
@@ -212,3 +212,155 @@ ul {
     color: rgb(255, 168, 82);
 }
 
+.contact {
+    padding: 150px 40px;
+    margin-left: 70px;
+}
+
+.contact .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact .content form {
+    flex-basis: 70%;
+}
+
+.contact .content form .main-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.contact .content form .main-input:focus {
+    outline: none;
+}
+
+.contact .content form textarea.main-input {
+    height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+    background-color: rgb(255, 168, 82);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact .content .info {
+    flex-basis: 25%;
+}
+
+.contact .content .info h4 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact .content .info .phone {
+    display: block;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+
+.contact .content .info address {
+    color: #777;
+    line-height: 2;
+}
+
+
+.containers {
+    background-color: white;
+    padding: 150px 40px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.product-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 50px 40px;
+}
+
+.product-form h1 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-group label {
+    justify-self: end;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(255, 168, 82);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(250, 140, 30);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-table {
+    width: 90%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+.product-table th,
+.product-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-image {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
